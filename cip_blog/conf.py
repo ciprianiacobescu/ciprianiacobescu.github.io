@@ -976,7 +976,7 @@ COMMENT_SYSTEM = "commento"
 # depends on what comment system you use. The default is
 # "nikolademo" which is a test account for Disqus. More information
 # is in the manual.
-COMMENT_SYSTEM_ID = ""
+COMMENT_SYSTEM_ID = "http://vps1.ciprianiacobescu.com:18080"
 
 # Create index.html for page folders?
 # WARNING: if a page would conflict with the index file (usually
