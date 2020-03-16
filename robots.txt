@@ -1,0 +1,4 @@
+Sitemap: https://ciprianiacobescu.github.io/sitemapindex.xml
+
+User-Agent: *
+Host: ciprianiacobescu.github.io
