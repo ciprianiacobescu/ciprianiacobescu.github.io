@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ciprian Iacobescu - Blog, sort of .. (Posts about demo)</title><link>https://ciprianiacobescu.github.io/</link><description></description><atom:link href="https://ciprianiacobescu.github.io/categories/cat_demo.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2020 &lt;a href="mailto:acontact@ciprianiacobescu.com"&gt;Ciprian Iacobescu&lt;/a&gt; </copyright><lastBuildDate>Mon, 16 Mar 2020 23:18:25 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>This is quite fun</title><link>https://ciprianiacobescu.github.io/posts/this-is-quite-fun/</link><dc:creator>Ciprian Iacobescu</dc:creator><description>&lt;div&gt;&lt;p&gt;Write your post here.&lt;/p&gt;
+&lt;div class="section" id="section-title"&gt;
+&lt;h2&gt;Section Title&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div class="section" id="the-common-denominator"&gt;
+&lt;h2&gt;The Common Denominator&lt;/h2&gt;
+&lt;div class="section" id="subsection-subtitle"&gt;
+&lt;h3&gt;Subsection Subtitle&lt;/h3&gt;
+&lt;/div&gt;
+&lt;div class="section" id="titles-and-section-headers"&gt;
+&lt;h3&gt;Titles and Section headers&lt;/h3&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</description><category>demo-post</category><category>dummy-post</category><guid>https://ciprianiacobescu.github.io/posts/this-is-quite-fun/</guid><pubDate>Mon, 16 Mar 2020 23:12:56 GMT</pubDate></item></channel></rss>

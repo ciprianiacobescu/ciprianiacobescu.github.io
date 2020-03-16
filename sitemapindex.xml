@@ -6,15 +6,27 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
+  <loc>https://ciprianiacobescu.github.io/categories/cat_demo.xml</loc>
+  <lastmod>2020-03-16T23:18:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://ciprianiacobescu.github.io/categories/demo-post.xml</loc>
+  <lastmod>2020-03-16T23:18:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://ciprianiacobescu.github.io/categories/dummy-post.xml</loc>
+  <lastmod>2020-03-16T23:18:00Z</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>https://ciprianiacobescu.github.io/galleries/rss.xml</loc>
   <lastmod>2020-03-16T22:31:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://ciprianiacobescu.github.io/rss.xml</loc>
-  <lastmod>2020-03-16T22:35:00Z</lastmod>
+  <lastmod>2020-03-16T23:18:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://ciprianiacobescu.github.io/sitemap.xml</loc>
-  <lastmod>2020-03-16T22:35:00Z</lastmod>
+  <lastmod>2020-03-16T23:18:00Z</lastmod>
  </sitemap>
 </sitemapindex>
