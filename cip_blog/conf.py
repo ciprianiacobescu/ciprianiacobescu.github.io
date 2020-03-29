@@ -17,13 +17,14 @@ import time
 
 # Data about this site
 BLOG_AUTHOR = "Ciprian Iacobescu"  # (translatable)
-BLOG_TITLE = "Ciprian Iacobescu - Blog, sort of .."  # (translatable)
+BLOG_TITLE = "Blog, sort of .."  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
-SITE_URL = "https://ciprianiacobescu.github.io/"
+#SITE_URL = "https://ciprianiacobescu.github.io/"
+SITE_URL = "https://"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
-# BASE_URL = "https://ciprianiacobescu.github.io/"
+BASE_URL = "https://ciprianiacobescu.github.io/"
 BLOG_EMAIL = "acontact@ciprianiacobescu.com"
 BLOG_DESCRIPTION = "one and zero multiple times"  # (translatable)
 
