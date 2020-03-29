@@ -19,3 +19,4 @@ Subsection Subtitle
 Titles and Section headers
 --------------------------
 
+https://docs.nginx.com/nginx/admin-guide/security-controls/securing-http-traffic-upstream/
