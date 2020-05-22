@@ -10,4 +10,4 @@ jobs:
     - name: Build and Deploy Nikola
       uses: getnikola/nikola-action@v2
       with:
-        path: ./../cip_blog/
+        path: /github/workspace/cip_blog/
