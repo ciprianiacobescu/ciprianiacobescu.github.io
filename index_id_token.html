@@ -78,6 +78,11 @@
                         '<div class="alert alert-success" role="alert"><strong>Success:</strong> All required attributes are present.</div>'
                     );
                 }
+                else{
+                    $('#tokenInfo').append(
+                        '<div class="alert alert-danger" role="alert"><strong>Error:</strong> NOT all required attributes are present.</div>'
+                    );
+                }
 
                 // Displaying other fields in alphabetical order
                 $('#otherFields').append('<h4>Other Fields:</h4>');
