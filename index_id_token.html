@@ -54,7 +54,7 @@
                     var isPresent = payload[attr] ? true : false;
                     allRequiredPresent = allRequiredPresent && isPresent;
                     var statusClass = isPresent ? 'alert-success' : 'alert-danger';
-                    var statusText = isPresent ? 'Present' : 'Missing or Empty';
+                    var statusText = isPresent ? `Present [ ${payload[attr]} ]`  : 'Missing or Empty';
                     $('#tokenInfo').append(
                         `<div class="alert ${statusClass}" role="alert">
                             <strong>${attr}:</strong> ${statusText}
@@ -65,7 +65,7 @@
                 optionalAttributes.forEach(function(attr) {
                     var isPresent = payload[attr] ? true : false;
                     var statusClass = isPresent ? 'alert-warning' : 'alert-secondary';
-                    var statusText = isPresent ? 'Present' : 'Not Provided';
+                    var statusText = isPresent ? `Present [ ${payload[attr]} ]` : 'Not Provided';
                     $('#tokenInfo').append(
                         `<div class="alert ${statusClass}" role="alert">
                             <strong>${attr}:</strong> ${statusText}
