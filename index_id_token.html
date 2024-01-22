@@ -9,9 +9,13 @@
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+
 </head>
 <body>
     <div class="container mt-5">
+        <button class="btn btn-primary" onclick="downloadPDF()">Download as PDF</button>
+       
         <h2>JWT Token Check</h2>
         <div id="tokenInfo"></div>
         <div id="otherFields"></div>
@@ -104,6 +108,18 @@
                 );
             }
         });
+    
+    
+    
+        function downloadPDF() {
+            const { jsPDF } = window.jspdf;
+            const doc = new jsPDF();
+    
+            // Example: Capturing and adding the whole body's content
+            const content = document.body.innerHTML;
+            doc.text(content, 10, 10);
+            doc.save('download.pdf');
+        }
     </script>
 
     <!-- Bootstrap Bundle with Popper -->
