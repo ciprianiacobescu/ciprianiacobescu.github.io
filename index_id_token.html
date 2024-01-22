@@ -14,10 +14,11 @@
 </head>
 <body>
     <div class="container mt-5">
-        <button class="btn btn-primary" onclick="downloadPDF()">Download as PDF</button>
+        
        
         <h2>JWT Token Check</h2>
         <div id="tokenInfo"></div>
+        <button class="btn btn-primary" onclick="downloadPDF()">Print as PDF</button>
         <div id="otherFields"></div>
     </div>
 
@@ -112,13 +113,14 @@
     
     
         function downloadPDF() {
-            const { jsPDF } = window.jspdf;
-            const doc = new jsPDF();
-    
-            // Example: Capturing and adding the whole body's content
-            const content = document.body.innerHTML;
-            doc.text(content, 10, 10);
-            doc.save('download.pdf');
+//            const { jsPDF } = window.jspdf;
+//            const doc = new jsPDF();
+//    
+//            // Example: Capturing and adding the whole body's content
+//            const content = document.body.innerHTML;
+//            doc.text(content, 10, 10);
+//            doc.save('download.pdf');
+            window.print();
         }
     </script>
 
